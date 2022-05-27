@@ -1,0 +1,33 @@
+* {
+    font-family: "Roboto","Arial","sans-serif";
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+body, html, #root {
+    height: 100%;
+    min-height: 100%;
+  }
+
+button {
+    cursor: pointer;
+}
+
+input, textarea {
+    font-size: 14px;
+    background-color: transparent;
+}
+
+textarea {
+    resize: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+

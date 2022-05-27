@@ -1,0 +1,16 @@
+.colorPicker__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    &Item {
+        cursor: pointer;
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: bold;
+        @include flex_row_centered;
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "label": "Tags (required)",
+    "placeholder": "Press enter to add a tag (max 10 tags)",
+    "minTags": 1,
+    "maxTags": 10
+}

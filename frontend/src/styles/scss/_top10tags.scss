@@ -1,0 +1,31 @@
+.top10Tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8em;
+    border-top: 1px solid $border_container1;
+    border-bottom: 1px solid $border_container1;
+    padding: .8em 0;
+
+    &__button {
+        border: 1px solid $border_container1;
+        font-size: 14px;
+        height: 32px;
+        border-radius: 16px;
+        color: $fg_dark;
+        background-color: rgba(0,0,0,.05);
+        padding: 0 16px;
+        cursor: pointer;
+        @include transition-ease;
+
+        &.toggled,
+        &.toggled:hover {
+            background-color: $fg_dark;
+            border-color: $fg_dark;
+            color: #fff;
+        }
+
+        &:hover {
+            background-color: rgba(0,0,0,.12);
+        }
+    }
+}

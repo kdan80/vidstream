@@ -1,0 +1,6 @@
+{
+    "label": "Username (required)",
+    "placeholder": "Enter a username between 5 and 50 characters long",
+    "minChars": 5,
+    "maxChars": 50
+}

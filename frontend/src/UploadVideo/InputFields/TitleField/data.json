@@ -1,0 +1,6 @@
+{
+    "label": "Title (required)",
+    "placeholder": "Enter a title between 5 and 100 characters long",
+    "minChars": 5,
+    "maxChars": 100
+}

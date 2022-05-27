@@ -1,0 +1,21 @@
+.uploadVideo__root {
+    border-top: 1px solid $border_container1;
+    background-color: $bg_light2;
+    @include flex_col_centered;
+    flex: 1;
+
+    .uploadForm {
+        display: flex;
+        flex-flow: column;
+        gap: 1em;
+
+        &__header {
+            margin-bottom: 1em;
+        }
+
+        &__footer {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

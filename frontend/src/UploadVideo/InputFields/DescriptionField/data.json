@@ -1,0 +1,6 @@
+{
+    "label": "Description (required)",
+    "placeholder": "Enter a description between 20 and 255 characters long",
+    "minChars": 20,
+    "maxChars": 255
+}

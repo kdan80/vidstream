@@ -1,0 +1,9 @@
+/storage
+
+*/node_modules
+*/build
+*/requests
+
+*.env
+*.log
+

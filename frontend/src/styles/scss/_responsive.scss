@@ -1,0 +1,56 @@
+@include media-sm {
+    .uploadVideo__root {
+        width: 100%;
+        align-items: center;
+    }
+
+    .uploadForm {
+        background-color: #fff;
+        gap: 1em;
+        flex-direction: column;
+        border: 1px solid $border_container2;
+        box-shadow: 0 2px 4px $border_container2;
+        min-width: 36em;
+        max-width: 40em;
+        padding: 3em;
+        border-radius: .25em;
+    }
+
+    .colorPicker__list {
+        flex-wrap: nowrap;
+    }
+
+    .progressDialog {
+        max-width: 35em;
+        padding: 1.5em;
+    }
+
+    .watch__root {
+        padding: 2em;
+    }
+
+    .video {
+        min-width: 36em;
+        max-width: 40em;
+    }
+}
+
+@include media-lg {
+    .watch__root {
+        padding: 3em;
+    }
+
+    .video {
+        min-width: 40em;
+        max-width: 50%;
+    }
+}
+
+// Hack to reposition upload button
+@media only screen and (max-width: 600px) {
+    .btn_upload {
+        position: absolute;
+        top:  12px;
+        right: 12px;
+    }
+}

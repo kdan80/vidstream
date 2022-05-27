@@ -1,0 +1,90 @@
+
+// Background colors
+$hero: #1188ff;
+$hero_light: #1188ff;
+$bg_light1: #fff;
+$bg_light2: #f9f9f9;
+$bg_disabled: #d0d0d0;
+$bg_success: #28a7450d;
+$bg_tag_btn: rgba(0,0,0,.05);
+$bg_tag_btn_hover: rgba(0,0,0,.12);
+
+// Text colors
+$fg_light: #fff;
+$fg_dark: #080808;
+$fg_input: #888;
+$fg_details: #505050;
+$fg_disabled: #a2a3a4;
+$fg_success: #28a745;
+$fg_warning: #bb1234;
+
+
+$border_container1: rgba(0,0,0,.1);
+$border_container2: rgba(0,0,0,.15);
+$border_input: #ccc;
+$border_success: #28a745;
+$border_warning: #bb1234;
+
+@mixin box_shadow {
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+@mixin box_shadow_disabled {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+@mixin box_shadow_icon {
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2);;
+}
+
+@mixin hide_overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin transition-ease {
+    transition: all 300ms ease-in-out;
+}
+
+@mixin flex_row_centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex_row_sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex_col_centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin isValid {
+    border-color: $border_success;
+    background-color: $bg_success;
+    color: $fg_success;
+}
+
+@mixin alertUser {
+    border-color: $border_warning;
+    background-color: #fff;
+    color: $fg_warning;
+}
+
+@mixin media-sm {
+    @media screen and (min-width: 600px){
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 960px){
+        @content;
+    }
+}
