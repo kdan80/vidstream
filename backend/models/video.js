@@ -77,7 +77,7 @@ videoSchema.pre('save', function(){
     this.v_id = v_id;
 
     // Use the mongoDB _id to create a file in which to store the incoming video file and thumbnail
-    const filePath = `/home/kt/Projects/portfolio/vidstream/storage/${this._id.toString().substring(0,8)}`;
+    const filePath = `${process.env.VIDAPP_STORAGE}/${this._id.toString().substring(0,8)}`;
     fs.mkdir(filePath, (err) => {
         if (err) return process.stdout.write(err);
     });
