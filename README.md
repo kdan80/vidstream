@@ -12,7 +12,6 @@ A youtube inspired video streaming app
 	of the functionality of vidstream.
 </p>
 &nbsp;
-&nbsp;
 
 #### Stream video
 
