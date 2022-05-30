@@ -28,3 +28,11 @@ Filter the list of displayed videos using the standard js filter() array method.
 </p>
 
 ![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-filter-videos.gif)
+
+#### Upload a video
+
+<p>
+Upload a video. ffmpeg is used to process the video, extracting a thumbnail image, computing duration etc. The metadata is then stored in a mongodb document.
+</p>
+
+![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-upload-video.gif)
