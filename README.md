@@ -18,4 +18,5 @@ A youtube inspired video streaming app
 <p>
 A video stream created sing the "fs" module from node.js
 </p>
+
 ![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-stream-video.gif)
