@@ -11,9 +11,11 @@ A youtube inspired video streaming app
 	The animated gifs below have been included to demonstrate some
 	of the functionality of vidstream.
 </p>
-&nbsp;
+
 
 #### Stream video
 
-
+<p>
+A video stream created sing the "fs" module from node.js
+</p>
 ![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-stream-video.gif)
