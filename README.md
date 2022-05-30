@@ -16,7 +16,15 @@ A youtube inspired video streaming app
 #### Stream video
 
 <p>
-A video stream created sing the "fs" module from node.js
+A video stream created sing the "fs" module from node.js.
 </p>
 
 ![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-stream-video.gif)
+
+#### Filter videos
+
+<p>
+Filter the list of displayed videos using the standard js filter() array method.
+</p>
+
+![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-filter-videos.gif)
