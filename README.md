@@ -10,4 +10,4 @@ A youtube inspired video streaming app
 
 ### Stream video
 
-![stream video](https://raw.githubusercontent.com/kdan80/vidstream/master/frontend/gifs/vs-stream-video.gif)
+![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-stream-video.gif)
