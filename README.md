@@ -27,7 +27,7 @@ A video stream created sing the "fs" module from node.js.
 Filter the list of displayed videos using the standard js filter() array method.
 </p>
 
-![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-filter-videos.webp)
+![filter videos](https://github.com/kdan80/vidstream/blob/master/webp/vs-filter-videos.webp)
 
 #### Form validation
 
@@ -35,7 +35,7 @@ Filter the list of displayed videos using the standard js filter() array method.
 Form validation with meaningful real-time user feedback
 </p>
 
-![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-form-validation.webp)
+![form validation](https://github.com/kdan80/vidstream/blob/master/webp/vs-form-validation.webp)
 
 #### Upload a video
 
@@ -43,4 +43,4 @@ Form validation with meaningful real-time user feedback
 Upload a video. ffmpeg is used to process the video, extracting a thumbnail image, computing duration etc. The metadata is then stored in a mongodb document.
 </p>
 
-![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-upload-video.webp)
+![upload video](https://github.com/kdan80/vidstream/blob/master/webp/vs-video-upload.webp)
