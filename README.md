@@ -19,7 +19,7 @@ A youtube inspired video streaming app
 A video stream created sing the "fs" module from node.js.
 </p>
 
-![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-stream-video.gif)
+![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-stream-video.webp)
 
 #### Filter videos
 
@@ -27,7 +27,15 @@ A video stream created sing the "fs" module from node.js.
 Filter the list of displayed videos using the standard js filter() array method.
 </p>
 
-![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-filter-videos.gif)
+![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-filter-videos.webp)
+
+#### Form validation
+
+<p>
+Form validation with meaningful real-time user feedback
+</p>
+
+![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-form-validation.webp)
 
 #### Upload a video
 
@@ -35,4 +43,4 @@ Filter the list of displayed videos using the standard js filter() array method.
 Upload a video. ffmpeg is used to process the video, extracting a thumbnail image, computing duration etc. The metadata is then stored in a mongodb document.
 </p>
 
-![stream video](https://github.com/kdan80/vidstream/blob/master/gifs/vs-upload-video.gif)
+![stream video](https://github.com/kdan80/vidstream/blob/master/webp/vs-upload-video.webp)
